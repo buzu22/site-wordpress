@@ -1,0 +1,493 @@
+0000.001 (0) Opened log file at time: Tue, 29 Oct 2024 10:34:21 +0000 on http://localhost:8080/wordpress
+0000.034 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-4764LOO 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: fr_FR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 95.6M | 98M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.046 (0) Free space on disk containing Updraft's temporary directory: 390510.7 MB
+0000.077 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.159 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.243 (0) Set semaphore last lock (fd) time to 2024-10-29 10:34:22
+0000.256 (0) Semaphore lock (fd) complete
+0000.328 (0) Backup run: resumption=0, nonce=f8c5622a9931, file_nonce=f8c5622a9931 begun at=1730198061 (1s ago), job type=backup
+0000.378 (0) Scheduling a resumption (1) after 300 seconds (1730198362) in case this run gets aborted
+0000.461 (0) Checking if we have a zip executable available
+0000.520 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.541 (0) Creation of backups of directories: beginning
+0000.612 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.421 (0) Total entities for the zip file: 1938 directories, 8734 files (0 skipped as non-modified), 164 MB
+0004.727 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 167894.5 KB, split: 409600 KB)
+0004.812 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.891 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.961 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.024 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.095 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.157 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0005.215 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0005.331 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0005.407 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0005.480 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0005.549 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0005.618 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0005.680 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0005.759 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0005.840 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0005.948 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0006.038 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0006.099 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0006.155 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0006.238 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0006.363 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0006.452 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0006.547 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0006.616 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0006.721 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0006.780 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0006.846 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0006.899 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0006.963 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0007.032 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0007.099 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0007.158 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0007.242 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0007.301 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0007.393 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0007.459 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0007.554 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0007.608 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0007.707 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0007.816 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0007.919 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0008.024 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0008.089 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0008.203 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0008.272 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0008.353 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0008.423 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0008.486 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0008.551 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0008.641 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0008.737 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0008.947 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0009.022 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0009.224 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0009.298 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0009.385 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0009.455 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0009.529 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0009.611 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0009.678 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0009.757 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0009.828 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0009.987 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0010.136 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0010.217 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0010.311 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0010.403 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0010.507 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0010.620 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0010.688 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0010.772 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0010.829 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7200 files added (on-disk size: 0 KB)
+0010.933 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7300 files added (on-disk size: 0 KB)
+0011.001 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7400 files added (on-disk size: 0 KB)
+0011.072 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7500 files added (on-disk size: 0 KB)
+0011.281 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7600 files added (on-disk size: 0 KB)
+0011.365 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7700 files added (on-disk size: 0 KB)
+0011.438 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7800 files added (on-disk size: 0 KB)
+0011.544 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 7900 files added (on-disk size: 0 KB)
+0011.605 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 8000 files added (on-disk size: 0 KB)
+0011.667 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 8100 files added (on-disk size: 0 KB)
+0011.739 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 8200 files added (on-disk size: 0 KB)
+0011.799 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 8300 files added (on-disk size: 0 KB)
+0011.931 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 8400 files added (on-disk size: 0 KB)
+0011.982 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 8500 files added (on-disk size: 0 KB)
+0012.071 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 8600 files added (on-disk size: 0 KB)
+0012.129 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp: 8700 files added (on-disk size: 0 KB)
+0305.403 (1) Opened log file at time: Tue, 29 Oct 2024 10:39:27 +0000 on http://localhost:8080/wordpress
+0305.453 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-4764LOO 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: fr_FR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 84.8M | 92M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0305.517 (1) Free space on disk containing Updraft's temporary directory: 390412.5 MB
+0305.548 (1) Requesting backup semaphore lock (f8c5622a9931)
+0305.573 (1) [Debug] Lock option (updraft_lock_f8c5622a9931, wp_options) was created in the database
+0305.585 (1) [Info] Lock (updraft_lock_f8c5622a9931, wp_options) acquired after initialising the database
+0305.644 (1) Backup run: resumption=1, nonce=f8c5622a9931, file_nonce=f8c5622a9931 begun at=1730198061 (306s ago), job type=backup
+0305.671 (1) Scheduling a resumption (2) after 300 seconds (1730198667) in case this run gets aborted
+0305.722 (1) Checking if we have a zip executable available
+0305.752 (1) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0305.781 (1) Creation of backups of directories: had begun; will resume
+0305.798 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0305.872 (1) Terminate: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.tmp exists with activity within the last 30 seconds (time_mod=1730198367, time_now=1730198367, diff=0, size=51767.1KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+0305.909 (1) Rescheduling resumption 2: moving to 420 seconds from now (1730198787)
+0305.946 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+0326.345 (0) The time we have been running (326.2) is approaching the resumption interval (300) - increasing resumption interval to 357
+0326.542 (0) Creating zip file manifest (backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.list-temp.tmp)
+0326.608 (0) Successfully created zip file manifest (size: 718968)
+0327.195 (0) Created plugins zip (0) - 52590.3 KB in 326.5 s (161.1 KB/s) (sha1: 83dbe2c61518e40ac3d413d1f60623c1eeb00536, sha256: 003d23f0de48e55f6f124609a84f57cd50f20c005492428c85b8b18a9377967c)
+0327.226 (0) Deleting old temporary file: log.8e2eb5e69bff-browser.txt
+0327.370 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0327.400 (0) No remote despatch: user chose no remote backup service
+0327.429 (0) Recording as successfully uploaded: backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip
+0327.479 (0) Deleting zip manifest (backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip.list.tmp)
+0327.662 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0327.675 (0) Number of backup sets in history: 2; groups (db): 1
+0327.704 (0) Examining (for databases) backup set with group_id=0, nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0327.741 (0) Examining (for databases) backup set with group_id=0, nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0327.741 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0327.771 (0) Number of backup sets in history: 2; groups (files): 1
+0327.783 (0) Examining (for files) backup set with nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0327.783 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0327.813 (0) Examining (for files) backup set with nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0327.813 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0327.842 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0327.917 (0) Beginning creation of dump of themes (split every: 400 MB)
+0328.219 (0) Total entities for the zip file: 114 directories, 656 files (0 skipped as non-modified), 15 MB
+0328.229 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 15312.3 KB, split: 409600 KB)
+0328.296 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0328.384 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0328.461 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0328.529 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0328.592 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0328.646 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0333.626 (0) The time we have been running (333.4) is approaching the resumption interval (357) - increasing resumption interval to 364
+0333.709 (0) Creating zip file manifest (backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip.list-temp.tmp)
+0333.758 (0) Successfully created zip file manifest (size: 44364)
+0334.018 (0) Created themes zip (0) - 4727.7 KB in 6 s (781.5 KB/s) (sha1: 8cdabe0f4ef14c11d4e56f3058c52dba90e2498e, sha256: 62fa9b11a576e5393c3727ef50a47e1584b5a85e6bc4fa530dc61d55cbe39fbf)
+0334.157 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0334.194 (0) No remote despatch: user chose no remote backup service
+0334.224 (0) Recording as successfully uploaded: backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip
+0334.282 (0) Deleting zip manifest (backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip.list.tmp)
+0334.323 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0334.337 (0) Number of backup sets in history: 2; groups (db): 1
+0334.378 (0) Examining (for databases) backup set with group_id=0, nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0334.407 (0) Examining (for databases) backup set with group_id=0, nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0334.407 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0334.437 (0) Number of backup sets in history: 2; groups (files): 1
+0334.449 (0) Examining (for files) backup set with nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0334.449 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0334.487 (0) Examining (for files) backup set with nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0334.487 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0334.516 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0334.695 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0334.708 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0334.738 (0) finding files: 2016: adding to list (1)
+0334.767 (0) finding files: 2022: adding to list (2)
+0334.796 (0) finding files: 2024: adding to list (3)
+0334.824 (0) finding files: elementor: adding to list (4)
+0334.863 (0) finding files: oceanwp-webfonts: adding to list (5)
+0334.907 (0) finding files: oceanwp-webfonts-css: adding to list (6)
+0334.979 (0) finding files: wpforms: adding to list (7)
+0335.064 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0335.354 (0) Total entities for the zip file: 15 directories, 98 files (0 skipped as non-modified), 11.8 MB
+0335.438 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 12112.7 KB, split: 409600 KB)
+0336.779 (0) The time we have been running (336.4) is approaching the resumption interval (364) - increasing resumption interval to 367
+0336.839 (0) Creating zip file manifest (backup_2024-10-29-1134_wordpress_f8c5622a9931-uploads.zip.list-temp.tmp)
+0336.893 (0) Successfully created zip file manifest (size: 5705)
+0337.075 (0) Created uploads zip (0) - 6018.9 KB in 1.8 s (3264 KB/s) (sha1: b967b2f5e69f0d25ca0ea45693241f0669e55ff7, sha256: fe86d94341c104b144cbe6b8539f3c8f7670c946e24976488f50791aafb02781)
+0337.170 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0337.200 (0) No remote despatch: user chose no remote backup service
+0337.229 (0) Recording as successfully uploaded: backup_2024-10-29-1134_wordpress_f8c5622a9931-uploads.zip
+0337.288 (0) Deleting zip manifest (backup_2024-10-29-1134_wordpress_f8c5622a9931-uploads.zip.list.tmp)
+0337.355 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0337.384 (0) Number of backup sets in history: 2; groups (db): 1
+0337.413 (0) Examining (for databases) backup set with group_id=0, nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0337.413 (0) Examining (for databases) backup set with group_id=0, nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0337.413 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0337.442 (0) Number of backup sets in history: 2; groups (files): 1
+0337.472 (0) Examining (for files) backup set with nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0337.472 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0337.501 (0) Examining (for files) backup set with nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0337.501 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0337.530 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0337.620 (0) No backup of mu-plugins: excluded by user's options
+0337.676 (0) Beginning backup of other directories found in the content directory (index: 0)
+0337.705 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0337.780 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0337.819 (0) finding files: index.php: adding to list (1)
+0337.847 (0) finding files: index.php-old: adding to list (2)
+0337.876 (0) finding files: languages: adding to list (3)
+0337.906 (0) finding files: languages-old: adding to list (4)
+0337.935 (0) finding files: plugins: skipping: this is the plugins directory
+0337.965 (0) finding files: plugins-old: adding to list (5)
+0337.993 (0) finding files: themes: skipping: this is the themes directory
+0338.060 (0) finding files: themes-old: adding to list (6)
+0338.109 (0) finding files: updraft: skipping: this is the updraft directory
+0338.146 (0) finding files: upgrade: skipping: excluded by options
+0338.168 (0) finding files: uploads: skipping: this is the uploads directory
+0338.180 (0) finding files: uploads-old: adding to list (7)
+0338.369 (0) Total entities for the zip file: 9 directories, 358 files (0 skipped as non-modified), 20.6 MB
+0338.403 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 21113.7 KB, split: 409600 KB)
+0338.471 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0338.546 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0338.628 (0) Zip: backup_2024-10-29-1134_wordpress_f8c5622a9931-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0340.152 (0) The time we have been running (340.1) is approaching the resumption interval (367) - increasing resumption interval to 371
+0340.196 (0) Creating zip file manifest (backup_2024-10-29-1134_wordpress_f8c5622a9931-others.zip.list-temp.tmp)
+0340.223 (0) Successfully created zip file manifest (size: 24532)
+0340.384 (0) Created others zip (0) - 5809.3 KB in 2.1 s (2719.3 KB/s) (sha1: 27b7dcf8f9a796ca319402379397c17be00b75dc, sha256: efb834e2e15a5c719261cacb6c36cbf7b1d32e6f1bd75972a05a64bb4a15c103)
+0340.482 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0340.502 (0) No remote despatch: user chose no remote backup service
+0340.525 (0) Recording as successfully uploaded: backup_2024-10-29-1134_wordpress_f8c5622a9931-others.zip
+0340.558 (0) Deleting zip manifest (backup_2024-10-29-1134_wordpress_f8c5622a9931-others.zip.list.tmp)
+0340.600 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0340.615 (0) Number of backup sets in history: 2; groups (db): 1
+0340.635 (0) Examining (for databases) backup set with group_id=0, nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0340.648 (0) Examining (for databases) backup set with group_id=0, nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0340.648 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0340.669 (0) Number of backup sets in history: 2; groups (files): 1
+0340.683 (0) Examining (for files) backup set with nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0340.683 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0340.712 (0) Examining (for files) backup set with nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0340.712 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0340.734 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0340.837 (0) Saving backup status to database (elements: 8)
+0340.917 (0) Beginning creation of database dump (WordPress DB)
+0340.932 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0341.752 (0) Table wp_options: Total expected rows (via COUNT): 383
+0341.766 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0341.892 (0) Table wp_options: Rows added in this batch (next record: 1823): 377 (uncompressed bytes in this segment=994068) in 0.69 seconds
+0342.028 (0) The time we have been running (341.9) is approaching the resumption interval (371) - increasing resumption interval to 372
+0342.126 (0) The time we have been running (342.1) is approaching the resumption interval (372) - increasing resumption interval to 373
+0342.186 (0) Table wp_options: finishing file(s) (2, 118.5 KB)
+0342.269 (0) Table wp_users: Total expected rows (via COUNT): 1
+0342.299 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0342.362 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1174) in 0.13 seconds
+0342.577 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0342.685 (0) Table wp_usermeta: Total expected rows (via COUNT): 31
+0342.714 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0342.807 (0) Table wp_usermeta: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=3411) in 0.18 seconds
+0342.919 (0) Table wp_usermeta: finishing file(s) (2, 1.6 KB)
+0343.090 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 34
+0343.102 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0343.134 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 40): 34 (uncompressed bytes in this segment=15516) in 0.16 seconds
+0343.263 (0) The time we have been running (343.2) is approaching the resumption interval (373) - increasing resumption interval to 374
+0343.319 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.8 KB)
+0343.375 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0343.455 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.11 seconds
+0343.728 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0343.785 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0343.833 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0343.943 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=675) in 0.17 seconds
+0344.077 (0) The time we have been running (344) is approaching the resumption interval (374) - increasing resumption interval to 375
+0344.177 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0344.339 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 86
+0344.369 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0344.406 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 86): 86 (uncompressed bytes in this segment=7923) in 0.12 seconds
+0344.468 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0344.590 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0344.632 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.12 seconds
+0344.726 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0344.973 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0345.175 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0345.235 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2001) in 0.36 seconds
+0345.303 (0) The time we have been running (345.2) is approaching the resumption interval (375) - increasing resumption interval to 376
+0345.359 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0345.497 (0) Table wp_imagify_files: Total expected rows (via COUNT): 0
+0345.542 (0) Table wp_imagify_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1333) in 0.11 seconds
+0345.659 (0) Table wp_imagify_files: finishing file(s) (2, 0.5 KB)
+0345.754 (0) Table wp_imagify_folders: Total expected rows (via COUNT): 0
+0345.789 (0) Table wp_imagify_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=609) in 0.07 seconds
+0345.877 (0) Table wp_imagify_folders: finishing file(s) (2, 0.4 KB)
+0345.958 (0) Table wp_links: Total expected rows (via COUNT): 0
+0345.989 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.06 seconds
+0346.076 (0) The time we have been running (346) is approaching the resumption interval (376) - increasing resumption interval to 377
+0346.191 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0347.254 (0) Table wp_postmeta: Total expected rows (via COUNT): 990
+0347.284 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0347.428 (0) Table wp_postmeta: Rows added in this batch (next record: 1185): 990 (uncompressed bytes in this segment=1448135) in 1.17 seconds
+0347.864 (0) The time we have been running (347.5) is approaching the resumption interval (377) - increasing resumption interval to 378
+0348.043 (0) Table wp_postmeta: finishing file(s) (2, 142.7 KB)
+0348.910 (0) Table wp_posts: Total expected rows (via COUNT): 157
+0348.955 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0349.245 (0) Table wp_posts: Rows added in this batch (next record: 699): 157 (uncompressed bytes in this segment=549026) in 1.06 seconds
+0349.556 (0) The time we have been running (349.4) is approaching the resumption interval (378) - increasing resumption interval to 380
+0349.712 (0) Table wp_posts: finishing file(s) (2, 38.9 KB)
+0349.811 (0) Table wp_term_relationships: Total expected rows (approximate): 27
+0349.904 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 27 (uncompressed bytes in this segment=1051) in 0.13 seconds
+0350.001 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0350.199 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 8
+0350.220 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0350.293 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1103) in 0.26 seconds
+0350.437 (0) The time we have been running (350.4) is approaching the resumption interval (380) - increasing resumption interval to 381
+0350.494 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0350.638 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0350.672 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.09 seconds
+0350.790 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0350.973 (0) Table wp_terms: Total expected rows (via COUNT): 8
+0350.998 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0351.058 (0) Table wp_terms: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=886) in 0.13 seconds
+0351.228 (0) The time we have been running (351.1) is approaching the resumption interval (381) - increasing resumption interval to 382
+0351.380 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0351.614 (0) Table wp_blc_filters: Total expected rows (via COUNT): 0
+0351.721 (0) Table wp_blc_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=475) in 0.19 seconds
+0351.859 (0) Table wp_blc_filters: finishing file(s) (2, 0.3 KB)
+0352.025 (0) Table wp_blc_instances: Total expected rows (via COUNT): 3
+0352.050 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.102 (0) Table wp_blc_instances: Rows added in this batch (next record: 219): 3 (uncompressed bytes in this segment=1355) in 0.13 seconds
+0352.216 (0) The time we have been running (352.2) is approaching the resumption interval (382) - increasing resumption interval to 383
+0352.264 (0) Table wp_blc_instances: finishing file(s) (2, 0.6 KB)
+0352.471 (0) Table wp_blc_links: Total expected rows (via COUNT): 3
+0352.530 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0352.570 (0) Table wp_blc_links: Rows added in this batch (next record: 36): 3 (uncompressed bytes in this segment=5492) in 0.17 seconds
+0352.923 (0) Table wp_blc_links: finishing file(s) (2, 1.4 KB)
+0353.106 (0) Table wp_blc_synch: Total expected rows (approximate): 1
+0353.247 (0) Table wp_blc_synch: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=679) in 0.18 seconds
+0353.688 (0) The time we have been running (353.3) is approaching the resumption interval (383) - increasing resumption interval to 384
+0353.954 (0) Table wp_blc_synch: finishing file(s) (2, 0.4 KB)
+0354.074 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0354.098 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.05 seconds
+0354.156 (0) The time we have been running (354.1) is approaching the resumption interval (384) - increasing resumption interval to 385
+0354.224 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0354.295 (0) Table wp_hustle_entries: Total expected rows (via COUNT): 0
+0354.320 (0) Table wp_hustle_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=672) in 0.06 seconds
+0354.432 (0) Table wp_hustle_entries: finishing file(s) (2, 0.4 KB)
+0354.587 (0) Table wp_hustle_entries_meta: Total expected rows (via COUNT): 0
+0354.795 (0) Table wp_hustle_entries_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.29 seconds
+0355.278 (0) The time we have been running (355) is approaching the resumption interval (385) - increasing resumption interval to 386
+0355.304 (0) Table wp_hustle_entries_meta: finishing file(s) (2, 0.4 KB)
+0355.601 (0) Table wp_hustle_modules: Total expected rows (via COUNT): 1
+0355.629 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0355.662 (0) Table wp_hustle_modules: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=780) in 0.20 seconds
+0355.726 (0) Table wp_hustle_modules: finishing file(s) (2, 0.4 KB)
+0356.070 (0) Table wp_hustle_modules_meta: Total expected rows (via COUNT): 9
+0356.124 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0356.155 (0) Table wp_hustle_modules_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=77572) in 0.38 seconds
+0356.419 (0) The time we have been running (356.3) is approaching the resumption interval (386) - increasing resumption interval to 387
+0356.483 (0) Table wp_hustle_modules_meta: finishing file(s) (2, 10.1 KB)
+0356.592 (0) Table wp_hustle_tracking: Total expected rows (via COUNT): 5
+0356.630 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0356.660 (0) Table wp_hustle_tracking: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1587) in 0.09 seconds
+0356.816 (0) Table wp_hustle_tracking: finishing file(s) (2, 0.6 KB)
+0357.090 (0) Table wp_seopress_content_analysis: Total expected rows (via COUNT): 4
+0357.155 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0357.241 (0) Table wp_seopress_content_analysis: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=9854) in 0.36 seconds
+0357.517 (0) The time we have been running (357.4) is approaching the resumption interval (387) - increasing resumption interval to 388
+0357.613 (0) Table wp_seopress_content_analysis: finishing file(s) (2, 2 KB)
+0357.762 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 25
+0357.804 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0357.854 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=3276) in 0.16 seconds
+0358.099 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.6 KB)
+0358.383 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0358.419 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.18 seconds
+0358.499 (0) The time we have been running (358.5) is approaching the resumption interval (388) - increasing resumption interval to 389
+0358.645 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0358.764 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0358.809 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.09 seconds
+0358.898 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0359.384 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 6
+0359.716 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0359.942 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 9): 6 (uncompressed bytes in this segment=1046) in 0.98 seconds
+0360.082 (0) The time we have been running (360) is approaching the resumption interval (389) - increasing resumption interval to 391
+0360.147 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0360.160 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-10-29-1134_wordpress_f8c5622a9931-db.gz (line 1925, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0360.182 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_options.table.tmpr1824.gz (1/33/fopen): adding to final database dump
+0360.206 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_options.table.gz (2/33/fopen): adding to final database dump
+0360.232 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_users.table.tmpr2.gz (3/33/fopen): adding to final database dump
+0360.245 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_users.table.gz (4/33/fopen): adding to final database dump
+0360.266 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_usermeta.table.tmpr32.gz (5/33/fopen): adding to final database dump
+0360.280 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_usermeta.table.gz (6/33/fopen): adding to final database dump
+0360.292 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_actionscheduler_actions.table.tmpr41.gz (7/33/fopen): adding to final database dump
+0360.306 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_actionscheduler_actions.table.gz (8/33/fopen): adding to final database dump
+0360.326 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/33/fopen): adding to final database dump
+0360.348 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_actionscheduler_claims.table.gz (10/33/fopen): adding to final database dump
+0360.361 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/33/fopen): adding to final database dump
+0360.391 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_actionscheduler_groups.table.gz (12/33/fopen): adding to final database dump
+0360.403 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_actionscheduler_logs.table.tmpr87.gz (13/33/fopen): adding to final database dump
+0360.434 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_actionscheduler_logs.table.gz (14/33/fopen): adding to final database dump
+0360.471 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_commentmeta.table.tmpr0.gz (15/33/fopen): adding to final database dump
+0360.500 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_commentmeta.table.gz (16/33/fopen): adding to final database dump
+0360.514 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_comments.table.tmpr2.gz (17/33/fopen): adding to final database dump
+0360.556 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_comments.table.gz (18/33/fopen): adding to final database dump
+0360.645 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_imagify_files.table.tmpr0.gz (19/33/fopen): adding to final database dump
+0360.708 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_imagify_files.table.gz (20/33/fopen): adding to final database dump
+0360.746 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_imagify_folders.table.tmpr0.gz (21/33/fopen): adding to final database dump
+0360.784 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_imagify_folders.table.gz (22/33/fopen): adding to final database dump
+0360.822 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_links.table.tmpr0.gz (23/33/fopen): adding to final database dump
+0360.885 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_links.table.gz (24/33/fopen): adding to final database dump
+0360.923 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_postmeta.table.tmpr1186.gz (25/33/fopen): adding to final database dump
+0360.966 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_postmeta.table.gz (26/33/fopen): adding to final database dump
+0360.990 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_posts.table.tmpr700.gz (27/33/fopen): adding to final database dump
+0361.013 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_posts.table.gz (28/33/fopen): adding to final database dump
+0361.050 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_term_relationships.table.tmpr100001.gz (29/33/fopen): adding to final database dump
+0361.118 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_term_relationships.table.gz (30/33/fopen): adding to final database dump
+0361.173 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_term_taxonomy.table.tmpr9.gz (31/33/fopen): adding to final database dump
+0361.202 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_term_taxonomy.table.gz (32/33/fopen): adding to final database dump
+0361.257 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_termmeta.table.tmpr0.gz (33/33/fopen): adding to final database dump
+0361.311 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_termmeta.table.gz (34/33/fopen): adding to final database dump
+0361.366 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_terms.table.tmpr9.gz (35/33/fopen): adding to final database dump
+0361.403 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_terms.table.gz (36/33/fopen): adding to final database dump
+0361.434 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_blc_filters.table.tmpr0.gz (37/33/fopen): adding to final database dump
+0361.497 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_blc_filters.table.gz (38/33/fopen): adding to final database dump
+0361.518 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_blc_instances.table.tmpr220.gz (39/33/fopen): adding to final database dump
+0361.563 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_blc_instances.table.gz (40/33/fopen): adding to final database dump
+0361.603 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_blc_links.table.tmpr37.gz (41/33/fopen): adding to final database dump
+0361.642 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_blc_links.table.gz (42/33/fopen): adding to final database dump
+0361.712 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_blc_synch.table.tmpr1001.gz (43/33/fopen): adding to final database dump
+0361.725 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_blc_synch.table.gz (44/33/fopen): adding to final database dump
+0361.737 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_e_events.table.tmpr0.gz (45/33/fopen): adding to final database dump
+0361.767 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_e_events.table.gz (46/33/fopen): adding to final database dump
+0361.822 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_entries.table.tmpr0.gz (47/33/fopen): adding to final database dump
+0361.843 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_entries.table.gz (48/33/fopen): adding to final database dump
+0361.896 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_entries_meta.table.tmpr0.gz (49/33/fopen): adding to final database dump
+0361.925 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_entries_meta.table.gz (50/33/fopen): adding to final database dump
+0361.980 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_modules.table.tmpr2.gz (51/33/fopen): adding to final database dump
+0362.025 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_modules.table.gz (52/33/fopen): adding to final database dump
+0362.072 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_modules_meta.table.tmpr10.gz (53/33/fopen): adding to final database dump
+0362.126 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_modules_meta.table.gz (54/33/fopen): adding to final database dump
+0362.168 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_tracking.table.tmpr6.gz (55/33/fopen): adding to final database dump
+0362.224 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_hustle_tracking.table.gz (56/33/fopen): adding to final database dump
+0362.268 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_seopress_content_analysis.table.tmpr5.gz (57/33/fopen): adding to final database dump
+0362.288 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_seopress_content_analysis.table.gz (58/33/fopen): adding to final database dump
+0362.336 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_wpforms_logs.table.tmpr26.gz (59/33/fopen): adding to final database dump
+0362.364 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_wpforms_logs.table.gz (60/33/fopen): adding to final database dump
+0362.432 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (61/33/fopen): adding to final database dump
+0362.463 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_wpforms_payment_meta.table.gz (62/33/fopen): adding to final database dump
+0362.502 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_wpforms_payments.table.tmpr0.gz (63/33/fopen): adding to final database dump
+0362.531 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_wpforms_payments.table.gz (64/33/fopen): adding to final database dump
+0362.581 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_wpforms_tasks_meta.table.tmpr10.gz (65/33/fopen): adding to final database dump
+0362.645 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db-table-wp_wpforms_tasks_meta.table.gz (66/33/fopen): adding to final database dump
+0362.849 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db.gz: finished writing out complete database file (329.9 KB)
+0362.982 (0) Total database tables backed up: 33 (backup_2024-10-29-1134_wordpress_f8c5622a9931-db.gz, size: 337976, sha1: dbdb19dd116ae65cb082e2c700b142c5a4c3a60f, sha256: b8064aac5e6dfdcdbb19b0dafd26cdea173c8cd8320b9f8fd17ccabe133b859f)
+0363.106 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-plugins.zip: plugins: This file has already been successfully uploaded
+0363.127 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-themes.zip: themes: This file has already been successfully uploaded
+0363.147 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-uploads.zip: uploads: This file has already been successfully uploaded
+0363.177 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-others.zip: others: This file has already been successfully uploaded
+0363.223 (0) backup_2024-10-29-1134_wordpress_f8c5622a9931-db.gz: db: This file has not yet been successfully uploaded: will queue
+0363.253 (0) Saving backup history. Total backup size: 67.8 MB
+0363.360 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0363.440 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0363.461 (0) No remote despatch: user chose no remote backup service
+0363.482 (0) Recording as successfully uploaded: backup_2024-10-29-1134_wordpress_f8c5622a9931-db.gz
+0363.570 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0363.630 (0) Number of backup sets in history: 3; groups (db): 1
+0363.657 (0) Examining (for databases) backup set with group_id=0, nonce=f8c5622a9931, datestamp=1730198061 (Oct 29 2024 10:34:21)
+0363.716 (0) This backup set is the backup set just made, so will not be deleted.
+0363.716 (0) Examining (for databases) backup set with group_id=0, nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0363.716 (0) Examining (for databases) backup set with group_id=0, nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0363.716 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0363.774 (0) Number of backup sets in history: 3; groups (files): 1
+0363.803 (0) Examining (for files) backup set with nonce=f8c5622a9931, datestamp=1730198061 (Oct 29 2024 10:34:21)
+0363.803 (0) This backup set is the backup set just made, so will not be deleted.
+0363.824 (0) This backup set is the backup set just made, so will not be deleted.
+0363.825 (0) This backup set is the backup set just made, so will not be deleted.
+0363.825 (0) This backup set is the backup set just made, so will not be deleted.
+0363.825 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0363.853 (0) Examining (for files) backup set with nonce=a2b172fd88d4, datestamp=1730197091 (Oct 29 2024 10:18:11)
+0363.853 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0363.883 (0) Examining (for files) backup set with nonce=f67b5072f685, datestamp=1729857873 (Oct 25 2024 12:04:33)
+0363.883 (0) plugins: over retain limit (2); will delete this file entity
+0363.883 (0) themes: over retain limit (2); will delete this file entity
+0363.883 (0) uploads: over retain limit (2); will delete this file entity
+0363.884 (0) others: over retain limit (2); will delete this file entity
+0363.884 (0) Delete file: backup_2024-10-25-1404_wordpress_f67b5072f685-plugins.zip, service=none
+0363.912 (0) Deleting local copy (backup_2024-10-25-1404_wordpress_f67b5072f685-plugins.zip)
+0363.943 (0) Delete file: backup_2024-10-25-1404_wordpress_f67b5072f685-themes.zip, service=none
+0363.970 (0) Deleting local copy (backup_2024-10-25-1404_wordpress_f67b5072f685-themes.zip)
+0364.002 (0) Delete file: backup_2024-10-25-1404_wordpress_f67b5072f685-uploads.zip, service=none
+0364.029 (0) Deleting local copy (backup_2024-10-25-1404_wordpress_f67b5072f685-uploads.zip)
+0364.059 (0) Delete file: backup_2024-10-25-1404_wordpress_f67b5072f685-others.zip, service=none
+0364.112 (0) Deleting local copy (backup_2024-10-25-1404_wordpress_f67b5072f685-others.zip)
+0364.322 (0) The time we have been running (364.2) is approaching the resumption interval (391) - increasing resumption interval to 395
+0364.362 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0364.384 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0364.463 (0) Resume backup (f8c5622a9931, 0): finish run
+0364.535 (0) Decremented the semaphore (fd) by 1
+0364.592 (0) Semaphore (fd) unlocked
+0364.684 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0365.064 (0) The backup succeeded and is now complete
+0365.086 (0) No email will/can be sent - the user has not configured an email address.
+0365.131 (0) La sauvegarde a réussi et est maintenant terminée
